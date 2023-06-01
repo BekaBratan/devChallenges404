@@ -36,6 +36,7 @@ header {
     font-size: 24px;
     font-family: 'Space Mono', monospace;
     width: 70%;
+    letter-spacing: 7px;
 }
 
 .txt button {
@@ -45,6 +46,8 @@ header {
     height: 60px;
     color: white;
     background-color: black;
+    border: none;
+    text-transform: uppercase;
 }
 
 footer {
