@@ -50,6 +50,10 @@ header {
     text-transform: uppercase;
 }
 
+.txt button:hover {
+    cursor: pointer;
+}
+
 footer {
     position: absolute;
     bottom: 0;
