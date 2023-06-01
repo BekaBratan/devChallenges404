@@ -7,7 +7,7 @@ header {
     font-size: 24px;
     font-family: 'Inconsolata', monospace;
     margin-top: 40px;
-    margin-bottom: 200px;
+    margin-bottom: 20vh;
 }
 
 .crow img {
@@ -22,20 +22,21 @@ header {
 .txt {
     display: flex;
     flex-direction: column;
-    width: 40vw;
+    max-width: 40vw;
+    max-height: 100vh;
     justify-content: space-between;
 }
 
 .txt .primary {
     font-size: 64px;
-    font-weight: 700;
+    font-weight: bold;
     font-family: 'Space Mono', monospace;
 }
 
 .txt .secondary {
     font-size: 24px;
     font-family: 'Space Mono', monospace;
-    width: 70%;
+    max-width: 30vw;
     letter-spacing: 7px;
 }
 
@@ -55,9 +56,8 @@ header {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
     text-align: center;
+    margin-top: 18vh;
     padding: 20px 0;
     width: 80vw;
     font-size: 14px;
